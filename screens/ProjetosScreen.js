@@ -24,7 +24,7 @@ export default function ProjetosScreen() {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.title}>Projetos</Text>
       <View style={styles.card}>
-        <Text style={styles.projectName}>App de Portfólio:</Text>
+        <Text style={styles.projectName}>App de Portfólio</Text>
         <Text style={styles.projectDescription}>
           App com navegação por abas, telas de perfil, habilidades e contato desenvolvido em React Native.
         </Text>
