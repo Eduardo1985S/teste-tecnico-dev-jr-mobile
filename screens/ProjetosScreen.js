@@ -11,7 +11,7 @@ export default function ProjetosScreen() {
       return;
     }
 
-    Alert.alert('Contato enviado', `Obrigado! Em breve respondo pelo e-mail ${email}.`);
+    Alert.alert('Contato enviado.', `Obrigado! Em breve respondo pelo e-mail ${email}.`);
     setEmail('');
     setMessage('');
   };
