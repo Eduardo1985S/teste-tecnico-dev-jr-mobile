@@ -74,11 +74,19 @@ perfil-dev-jr/
    ```bash
    cd perfil-dev-jr
    ```
-3. Instale as dependências:
+3. Crie o app Expo dentro do repositório clonado:
+   ```bash
+   npx create-expo-app@latest perfil-dev-jr --template blank
+   ```
+4. Acesse a pasta do app:
+   ```bash
+   cd perfil-dev-jr
+   ```
+5. Instale as dependências:
    ```bash
    npm install
    ```
-4. Execute o projeto:
+6. Execute o projeto:
    ```bash
    npx expo start
    ```
